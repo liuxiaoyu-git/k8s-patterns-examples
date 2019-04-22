@@ -16,7 +16,7 @@ items:
     - name: app
       image: centos/httpd
       ports:
-        - containerPort: 80
+        - containerPort: 8080
       volumeMounts:
       - mountPath: /var/www/html
         name: git
@@ -52,7 +52,7 @@ items:
     - name: http
       port: 8080
       protocol: TCP
-      targetPort: 80
+      targetPort: 8080
     selector:
       pattern: Sidecar
     # Just for demo
