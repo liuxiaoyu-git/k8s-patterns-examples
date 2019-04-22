@@ -28,7 +28,7 @@ items:
         name: git
       env:
         - name: GIT_REPO
-          value: https://github.com/mdn/beginner-html-site-scripted
+          value: https://github.com/liuxiaoyu-git/ForSideCarTest.git
       command:
       - "sh"
       - "-c"
